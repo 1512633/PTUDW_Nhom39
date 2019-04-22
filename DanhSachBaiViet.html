@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HCMUSExpress</title>
+	<title>Danh sách bài viết</title>
 	<meta charset="UTF-8">
 	<meta name="description" content=" Divisima | eCommerce Template">
 	<meta name="keywords" content="divisima, eCommerce, creative, html">
@@ -21,7 +21,9 @@
 	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
 	<link rel="stylesheet" href="css/animate.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/stylemakehands.css">
 	<link rel="stylesheet" type="text/css" href="css/style-1.css">
+	<link rel="stylesheet" type="text/css" href="css/danhsachbaiviet.css">
 </head>
 <body>
 	<!-- Page Preloder -->
@@ -61,8 +63,8 @@
 			<div class="container">
 				<!-- menu -->
 				<ul class="main-menu">
+					<li><a href="#">KINH DOANH</a></li>
 					<li><a href="#">Nông sản</a>
-						<span class="new">New</span>
 						<ul class="sub-menu">
 							<li><a href="#">Lúa gạo</a></li>
 							<li><a href="#">Thịt</a></li>
@@ -99,96 +101,183 @@
 			<h4>DANH SÁCH CÁC BÀI VIẾT</h4>
 		</div>
 	</div>
+	<br>
+	<br>
+	<div class="container">
+  		<div class="row">
+  			<div class="col">
+		    	<div class="filter-widget">
+					<h2 class="fw-title">Categories</h2>
+					<ul class="category-menu">
+						<li><a href="#" style="font-weight: bold; font-size: 13px;">KINH DOANH</a></li>
+						<li class="danhsachKD"><a href="#">Nông sản</a>
+							<ul class="sub-menu">
+								<li><a href="#">Lúa gạo<span>(2)</span></a></li>
+								<li><a href="#">Thịt<span>(56)</span></a></li>
+								<li><a href="#">Cà phê<span>(36)</span></a></li>
+								<li><a href="#">Tiêu<span>(27)</span></a></li>
+								<li><a href="#">Bánh kẹo<span>(19)</span></a></li>
+								<li><a href="#">Nước ngọt<span>(2)</span></a></li>
+								<li><a href="#">Sữa<span>(56)</span></a></li>
+								<li><a href="#">Thuốc lá<span>(36)</span></a></li>
+								<li><a href="#">Bia, rượu<span>(27)</span></a></li>
+							</ul>
+						</li>
+						<li class="danhsachKD"><a href="#">Hải sản</a>
+							<ul class="sub-menu">
+								<li><a href="#">Cá biển<span>(2)</span></a></li>
+								<li><a href="#">Tôm<span>(56)</span></a></li>
+								<li><a href="#">Ghẹ<span>(36)</span></a></li>
+								<li><a href="#">Mực<span>(27)</span></a></li>
+								<li><a href="#">Bạch tuộc<span>(19)</span></a></li>
+								<li><a href="#">Sồ<span>(2)</span></a></li>
+								<li><a href="#">Nghêu<span>(56)</span></a></li>
+								<li><a href="#">Ốc<span>(36)</span></a></li>
+								<li><a href="#">Hàu<span>(27)</span></a></li>
+							</ul>
+						</li>
+					</ul> <!--end danh sách theo chuyên mục --> 				
+				</div>
 
-	<section class="category-section spad">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 order-2 order-lg-1">
-					<div class="filter-widget">
-						<h2 class="fw-title">Categories</h2>
-						<ul class="category-menu">
-							<li><a href="#">Nông sản</a>
-								<ul class="sub-menu">
-									<li><a href="#">Lúa gạo<span>(2)</span></a></li>
-									<li><a href="#">Thịt<span>(56)</span></a></li>
-									<li><a href="#">Cà phê<span>(36)</span></a></li>
-									<li><a href="#">Tiêu<span>(27)</span></a></li>
-									<li><a href="#">Bánh kẹo<span>(19)</span></a></li>
-									<li><a href="#">Nước ngọt<span>(2)</span></a></li>
-									<li><a href="#">Sữa<span>(56)</span></a></li>
-									<li><a href="#">Thuốc lá<span>(36)</span></a></li>
-									<li><a href="#">Bia, rượu<span>(27)</span></a></li>
-								</ul>
-							</li>
-							<li><a href="#">Hải sản</a>
-								<ul class="sub-menu">
-									<li><a href="#">Cá biển<span>(2)</span></a></li>
-									<li><a href="#">Tôm<span>(56)</span></a></li>
-									<li><a href="#">Ghẹ<span>(36)</span></a></li>
-									<li><a href="#">Mực<span>(27)</span></a></li>
-									<li><a href="#">Bạch tuộc<span>(19)</span></a></li>
-									<li><a href="#">Sồ<span>(2)</span></a></li>
-									<li><a href="#">Nghêu<span>(56)</span></a></li>
-									<li><a href="#">Ốc<span>(36)</span></a></li>
-									<li><a href="#">Hàu<span>(27)</span></a></li>
-								</ul>
-							</li>
-						</ul>
+				<!-- Danh sách theo nhãn dán-->
+				<div class="filter-widget">
+					<h2 class="fw-title">Tags</h2>
+					<button class="tags">Kinh doanh</button>
+					<button class="tags">Hải sản</button>
+					<button class="tags">Tôm</button>
+					<button class="tags">Lên giá</button>
+					<button class="tags">Khai thác</button>
+				</div> <!-- End danh sách nhãn dán --> 	
+		    </div>
+
+		    <div class="col-6">
+
+		    	<div class="row danhsachtongquat">
+		    		<div class="col-4">
+		    			<img src="img/product/3.jpg" >	
+		    		</div>
+		    		<div class="col-8 thongtindanhsach">
+		    			<p class="tieudedanhsach"><a href="#">Nhiều người dân đang đổ xô đi trồng tiêu</a></p>
+		    			<p class="chuyenmuc">Chuyên mục: Nông sản</p>
+		    			<p class="ngay">24/10/1997</p>
+		    			<p class="abstract">Doanh thu tiêu đang ngày càng tăng nên các hộ gia đình đang đổ xô đi trồng tiêu mỗi ngày.</p>
+		    			<p class="tag"><b>Tags: </b> <a href="#">kinhdoanh, </a> <a href="#">trongtrot</a></p>
+		    		</div>
+		    	</div>
+
+		    	<div class="row danhsachtongquat">
+		    		<div class="col-4">
+		    			<img src="img/product/7.jpg" >	
+		    		</div>
+		    		<div class="col-8 thongtindanhsach">
+		    			<p class="tieudedanhsach"><a href="#">Nhiều người dân đang đổ xô đi trồng tiêu</a></p>
+		    			<p class="chuyenmuc">Chuyên mục: Nông sản</p>
+		    			<p class="ngay">24/10/1997</p>
+		    			<p class="abstract">Doanh thu tiêu đang ngày càng tăng nên các hộ gia đình đang đổ xô đi trồng tiêu mỗi ngày.</p>
+		    			<p class="tag"><b>Tags: </b> <a href="#">kinhdoanh, </a> <a href="#">trongtrot</a></p>
+		    		</div>
+		    	</div>
+
+		    	<div class="row danhsachtongquat">
+		    		<div class="col-4">
+		    			<img src="img/product/1.jpg" >	
+		    		</div>
+		    		<div class="col-8 thongtindanhsach">
+		    			<p class="tieudedanhsach"><a href="#">Nhiều người dân đang đổ xô đi trồng tiêu</a></p>
+		    			<p class="chuyenmuc">Chuyên mục: Nông sản</p>
+		    			<p class="ngay">24/10/1997</p>
+		    			<p class="abstract">Doanh thu tiêu đang ngày càng tăng nên các hộ gia đình đang đổ xô đi trồng tiêu mỗi ngày.</p>
+		    			<p class="tag"><b>Tags: </b> <a href="#">kinhdoanh, </a> <a href="#">trongtrot</a></p>
+		    		</div>
+		    	</div>
+
+		    	<div class="row danhsachtongquat">
+		    		<div class="col-4">
+		    			<img src="img/product/2.jpg" >	
+		    		</div>
+		    		<div class="col-8 thongtindanhsach">
+		    			<p class="tieudedanhsach"><a href="#">Nhiều người dân đang đổ xô đi trồng tiêu</a></p>
+		    			<p class="chuyenmuc">Chuyên mục: Nông sản</p>
+		    			<p class="ngay">24/10/1997</p>
+		    			<p class="abstract">Doanh thu tiêu đang ngày càng tăng nên các hộ gia đình đang đổ xô đi trồng tiêu mỗi ngày.</p>
+		    			<p class="tag"><b>Tags: </b> <a href="#">kinhdoanh, </a> <a href="#">trongtrot</a></p>
+		    		</div>
+		    	</div>
+
+		    	<div class="row danhsachtongquat">
+		    		<div class="col-4">
+		    			<img src="img/product/4.jpg" >	
+		    		</div>
+		    		<div class="col-8 thongtindanhsach">
+		    			<p class="tieudedanhsach"><a href="#">Nhiều người dân đang đổ xô đi trồng tiêu</a></p>
+		    			<p class="chuyenmuc">Chuyên mục: Nông sản</p>
+		    			<p class="ngay">24/10/1997</p>
+		    			<p class="abstract">Doanh thu tiêu đang ngày càng tăng nên các hộ gia đình đang đổ xô đi trồng tiêu mỗi ngày.</p>
+		    			<p class="tag"><b>Tags: </b> <a href="#">kinhdoanh, </a> <a href="#">trongtrot</a></p>
+		    		</div>
+		    	</div>
+
+		    	<div class="row danhsachtongquat">
+		    		<div class="col-4">
+		    			<img src="img/product/5.jpg" >	
+		    		</div>
+		    		<div class="col-8 thongtindanhsach">
+		    			<p class="tieudedanhsach"><a href="#">Nhiều người dân đang đổ xô đi trồng tiêu</a></p>
+		    			<p class="chuyenmuc">Chuyên mục: Nông sản</p>
+		    			<p class="ngay">24/10/1997</p>
+		    			<p class="abstract">Doanh thu tiêu đang ngày càng tăng nên các hộ gia đình đang đổ xô đi trồng tiêu mỗi ngày.</p>
+		    			<p class="tag"><b>Tags: </b> <a href="#">kinhdoanh, </a> <a href="#">trongtrot</a></p>
+		    		</div>
+		    	</div>
+
+		    	<div class="row danhsachtongquat">
+		    		<div class="col-4">
+		    			<img src="img/product/6.jpg" >	
+		    		</div>
+		    		<div class="col-8 thongtindanhsach">
+		    			<p class="tieudedanhsach"><a href="#">Nhiều người dân đang đổ xô đi trồng tiêu</a></p>
+		    			<p class="chuyenmuc">Chuyên mục: Nông sản</p>
+		    			<p class="ngay">24/10/1997</p>
+		    			<p class="abstract">Doanh thu tiêu đang ngày càng tăng nên các hộ gia đình đang đổ xô đi trồng tiêu mỗi ngày.</p>
+		    			<p class="tag"><b>Tags: </b> <a href="#">kinhdoanh, </a> <a href="#">trongtrot</a></p>
+		    		</div>
+		    	</div>
+		    	<hr>
+		    	<div class="fw-size-choose phantrang">
+					<div class="sc-item">
+						<input type="radio" name="sc" id="xs-size" checked="">
+						<label for="xs-size">1</label>
 					</div>
-					<div class="filter-widget">
-						<h2 class="fw-title">Tags</h2>
-						<ul class="category-menu">
-							<li><a href="#">Tag 1</a>
-								<ul class="sub-menu">
-									<li><a href="#">Tag<span>(2)</span></a></li>
-								</ul>
-							</li>
-							<li><a href="#">Tag 2</a>
-								<ul class="sub-menu">
-									<li><a href="#">Tag<span>(2)</span></a></li>
-								</ul>
-							</li>
-						</ul>
+					<div class="sc-item">
+						<input type="radio" name="sc" id="s-size">
+						<label for="s-size">2</label>
+					</div>
+					<div class="sc-item">
+						<input type="radio" name="sc" id="m-size">
+						<label for="m-size">3</label>
+					</div>
+					<div class="sc-item">
+						<input type="radio" name="sc" id="l-size">
+						<label for="l-size">4</label>
+					</div>
+					<div class="sc-item">
+						<input type="radio" name="sc" id="xl-size">
+						<label for="xl-size">5</label>
+					</div>
+					<div class="sc-item">
+						<label for="xxl-size">...</label>
 					</div>
 				</div>
-			</div>	
-		</div>
-	</section>
+		    </div>
+		    <div class="col">
+		    	<img src="img/single-product/3-1.png">
+		    	<br>
+		    	<img src="img/single-product/3-2.png">
+		    </div>
+  		</div>
+  	</div>/
 
-	<div class="filter-widget mb-0">
-						<h2 class="fw-title">Size</h2>
-						<div class="fw-size-choose">
-							<div class="sc-item">
-								<input type="radio" name="sc" id="xs-size" checked="">
-								<label for="xs-size">1</label>
-							</div>
-							<div class="sc-item">
-								<input type="radio" name="sc" id="s-size">
-								<label for="s-size">2</label>
-							</div>
-							<div class="sc-item">
-								<input type="radio" name="sc" id="m-size">
-								<label for="m-size">3</label>
-							</div>
-							<div class="sc-item">
-								<input type="radio" name="sc" id="l-size">
-								<label for="l-size">4</label>
-							</div>
-							<div class="sc-item">
-								<input type="radio" name="sc" id="xl-size">
-								<label for="xl-size">5</label>
-							</div>
-							<div class="sc-item">
-								<label for="xxl-size">...</label>
-							</div>
-						</div>
-					</div>
-
-	<section class="top-letest-product-section">
-		<div class="container">
-			<!-- code here -->
-		</div>
-	</section>
+	
 	<!-- Footer section -->
 	<section class="footer-section">
 		<div class="container">
