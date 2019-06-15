@@ -1,0 +1,76 @@
+.phantrang{
+	display: flex;
+	justify-content:center;
+	margin-top: 20px;
+	border: none;
+	margin-bottom: 0px;
+	padding-bottom: 15px;
+}
+
+.danhsachKD{
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.danhsachKD li{
+	margin-left: 15px;
+	font-weight: normal;
+}
+
+
+.tags{
+	border: none;
+	border-radius: 5px;
+	background-color: #888;
+	color: white;
+	padding-top: 2px;
+	cursor: pointer;
+	margin-bottom: 3px;
+	font-size: 12px;
+}
+
+.thongtindanhsach p{
+	margin-bottom: 0px;
+	font-family: sans-serif;
+}
+
+.tieudedanhsach{
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1em;
+}
+
+.danhsachtongquat{
+	margin-bottom: 25px;
+}
+
+.danhsachtongquat img{
+	cursor: pointer;
+}
+
+.chuyenmuc{
+	font-weight: bold;
+}
+
+.ngay{
+	font-size: 11px;
+}
+
+.abstract{
+	line-height: 1em;
+}
+
+.tag{
+	margin-top: 4px;
+	color: black;
+	font-size: 12px;
+}
+
+.tag a{
+	color: #333;
+}
+
+.tag a:hover{
+	color: red;
+}
